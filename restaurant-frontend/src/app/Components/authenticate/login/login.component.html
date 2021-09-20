@@ -1,0 +1,50 @@
+<div class="background">
+  <img class="image" src="../../../../assets/Images/login.jpg" />
+  <div class="transparent"></div>
+  <div class="container">
+    <h1 class="title">Elite Foods</h1>
+    <!--ngForm begins-->
+    <form class="form" [formGroup]="loginForm" (ngSubmit)="verifyLogin()">
+      <div class="side-by-side">
+        <p>Email</p>
+        <input
+          class="form-control"
+          formControlName="emailId"
+          type="email"
+          placeholder="Email"
+        />
+      </div>
+      <div class="side-by-side">
+        <p>Password</p>
+        <input
+          class="form-control"
+          formControlName="password"
+          type="password"
+          placeholder="Password"
+        />
+      </div>
+      <!--buttons-->
+      <button class="btn-success" style="border-radius: 10px">
+        <font size="5">Login</font>
+      </button>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <button class="btn-danger" type="reset" style="border-radius: 10px">
+        <font size="5">Cancel</font>
+      </button>
+      <!---->
+      <p>
+        Forgot password
+        <a class="has-text-primary" routerLink="/authenticate/reset-password"
+          >Click Here</a
+        >
+      </p>
+      <p>
+        Not yet Registerd?
+        <a class="has-text-primary" routerLink="/authenticate/sign-up"
+          >Click Here</a
+        >
+      </p>
+    </form>
+    <!--ngForm ends-->
+  </div>
+</div>

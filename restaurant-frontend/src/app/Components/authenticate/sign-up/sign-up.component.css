@@ -1,0 +1,42 @@
+/* css */
+.background {
+  height: 100vh;
+  width: 1365px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  padding: 10px 5px 15px 20px;
+}
+.container {
+  height: 650px;
+  width: 600px;
+  border-radius: 5%;
+  align-items: center;
+  position: absolute;
+}
+p {
+  padding: 20px 0 10px 0px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.image {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+}
+.transparent {
+  background-color: #ffffff;
+  opacity: 0.6;
+  height: 1750px;
+  width: 600px;
+  border-radius: 5%;
+}

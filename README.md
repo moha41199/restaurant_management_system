@@ -15,7 +15,7 @@ Project Description:*
     
     
 *Getting Started:*
-     git remote add origin https://github.com/Sivanesan23/Restaurent-Management-System.git
+     git remote add origin https://github.com/moha41199/restaurant_management_system.git
      compile and run the angular and spring code
      open up the visual studio and start the server using ng serve(command)
         
